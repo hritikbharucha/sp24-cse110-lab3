@@ -1,3 +1,3 @@
-# Lab 2 - Starter
+# Lab 3
 
-https://hritikbharucha.github.io/CSE110_Lab2_Starter/
+https://hritikbharucha.github.io/sp23-cse110-lab3/
