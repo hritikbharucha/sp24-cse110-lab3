@@ -103,4 +103,72 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+/* selectors */
+.attendance-container {
+  color: blue;
+}
 
+#radio1 {
+  color: red;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  color: green;
+}
+
+a[target="_blank"] {
+  color: purple;
+}
+
+p:hover {
+  color: orange;
+}
+
+h1, h2 {
+  color: teal;
+}
+
+div p {
+  color: brown;
+}
+
+div > p {
+  color: pink;
+}
+
+div ~ p {
+  color: cyan;
+}
+
+div + p {
+  color: lime;
+}
+
+div.agenda-container {
+  color: maroon;
+}
+
+/* New Selectors */
+:has(div) {
+  color: olive;
+}
+
+/* Nested Selectors */
+body {
+  div {
+    color: navy;
+  }
+}
+
+/* Pseudo-class */
+button:hover {
+  background-color: #ccc;
+}
+
+button:active {
+  background-color: #bbb;
+}
