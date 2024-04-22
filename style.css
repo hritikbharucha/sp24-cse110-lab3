@@ -12,8 +12,8 @@ body {
   color: hsl(0, 0%, 0%);
   color: hsla(0, 0%, 0%, 1);
   color: orange;
-  color: color(srgb 0 0 0 / 1);
-  color: color-mix(in srgb, red 50%, blue 50%);
+  color: color(srgb 0 0 0 / 1);  /* Still considered new so w3c check fails*/
+  color: color-mix(in srgb, red 50%, blue 50%); /* Still considered new so w3c check fails*/
   
   /* Background */
   background-color: var(--main-bg-color, --fallback-color);
